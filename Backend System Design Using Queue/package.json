@@ -1,0 +1,28 @@
+{
+  "name": "queue-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bull": "^4.16.5",
+    "chai": "^5.1.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mocha": "^11.0.1",
+    "mongoose": "^8.9.5",
+    "redis": "^4.7.0",
+    "sinon": "^19.0.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}

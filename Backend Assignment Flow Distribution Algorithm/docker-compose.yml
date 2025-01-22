@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  flow-distribution:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/usr/src/app
+    command: node src/server.js
